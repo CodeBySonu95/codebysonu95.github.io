@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - VoxSherpa</title>
     <style>
-        /* Material 3 Inspired Colors & Typography */
+        /* Compact Material 3 Inspired Theme */
         :root {
-            --md-bg-color: #F4F7F6;
+            --md-bg-color: #F8F9FA;
             --md-surface-color: #FFFFFF;
             --md-text-primary: #1A1C1E;
             --md-text-secondary: #44474E;
@@ -19,66 +19,64 @@
             font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--md-bg-color);
             color: var(--md-text-primary);
-            line-height: 1.6;
+            line-height: 1.4;
             margin: 0;
-            padding: 20px;
+            padding: 12px;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 760px;
             margin: 0 auto;
             background-color: var(--md-surface-color);
-            padding: 40px;
-            border-radius: 24px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
         }
 
         h1 {
             color: var(--md-primary-color);
-            font-size: 2.5em;
-            margin-top: 0;
-            margin-bottom: 8px;
-            letter-spacing: -0.5px;
+            font-size: 1.8em;
+            margin: 0 0 4px 0;
+            letter-spacing: -0.3px;
         }
 
         .effective-date {
             color: var(--md-text-secondary);
             font-style: italic;
-            font-size: 0.95em;
-            margin-bottom: 32px;
+            font-size: 0.85em;
+            margin-bottom: 20px;
             display: block;
         }
 
         h2 {
             color: var(--md-primary-color);
-            font-size: 1.4em;
-            margin-top: 32px;
-            margin-bottom: 12px;
+            font-size: 1.2em;
+            margin: 20px 0 8px 0;
             border-bottom: 1px solid var(--md-divider);
-            padding-bottom: 8px;
+            padding-bottom: 4px;
         }
 
         p, li {
-            font-size: 1.05em;
+            font-size: 0.95em;
             color: var(--md-text-secondary);
-            margin-bottom: 16px;
+            margin: 0 0 10px 0;
         }
 
         ul {
-            margin-top: 0;
-            padding-left: 24px;
+            margin: 0 0 10px 0;
+            padding-left: 20px;
         }
 
         li {
-            margin-bottom: 8px;
+            margin-bottom: 4px;
         }
 
         .contact-email {
             font-weight: 600;
             color: var(--md-primary-color);
             background-color: #E8F0FE;
-            padding: 4px 8px;
-            border-radius: 8px;
+            padding: 2px 6px;
+            border-radius: 6px;
             text-decoration: none;
             display: inline-block;
         }
@@ -87,21 +85,11 @@
             background-color: #D2E3FC;
         }
 
-        /* Mobile Responsiveness */
         @media (max-width: 600px) {
-            body {
-                padding: 12px;
-            }
-            .container {
-                padding: 24px;
-                border-radius: 16px;
-            }
-            h1 {
-                font-size: 2em;
-            }
-            h2 {
-                font-size: 1.25em;
-            }
+            body { padding: 8px; }
+            .container { padding: 16px; border-radius: 8px; }
+            h1 { font-size: 1.5em; }
+            h2 { font-size: 1.1em; }
         }
     </style>
 </head>
@@ -109,7 +97,7 @@
 
     <div class="container">
         <h1>Privacy Policy for VoxSherpa</h1>
-        <span class="effective-date">Last Updated: June 13, 2026</span>
+        <span class="effective-date">Last Updated: August 8, 2026</span>
 
         <h2>1. Introduction</h2>
         <p>Welcome to VoxSherpa. This Privacy Policy explains how information is handled when you use the VoxSherpa Android application. We value your privacy and are committed to being transparent about our practices.</p>
@@ -130,8 +118,7 @@
         <p>Once supported models are downloaded, speech generation can operate fully offline on your device.</p>
 
         <h2>4. Local Storage</h2>
-        <p>VoxSherpa stores downloaded AI models, generated audio files, application settings, and related data locally on your device.</p>
-        <p>These files remain under your control and are not uploaded to our servers.</p>
+        <p>VoxSherpa stores downloaded AI models, generated audio files, application settings, and related data locally on your device. These files remain under your control and are not uploaded to our servers.</p>
 
         <h2>5. Voice Data and Generated Content</h2>
         <p>Voice samples, cloned voices, generated audio files, imported text, and other user-created content are processed locally on the device whenever possible.</p>
@@ -145,16 +132,15 @@
             <li><strong>Google AdMob</strong></li>
             <li><strong>Google Play Billing</strong></li>
         </ul>
-        <p>These services may collect limited information necessary for analytics, diagnostics, advertising, security, fraud prevention, purchase verification, and service functionality.</p>
+        <!-- Removed Firebase Analytics mention; kept generic diagnostics/security mentions as per other services -->
+        <p>These services may collect limited information necessary for diagnostics, advertising, security, fraud prevention, purchase verification, and service functionality.</p>
         <p>For more information, please review Google's Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" style="color: var(--md-primary-color);">https://policies.google.com/privacy</a></p>
 
         <h2>7. Advertising</h2>
-        <p>The free version of VoxSherpa may display advertisements provided by Google AdMob.</p>
-        <p>AdMob may use device identifiers and other technologies to provide, measure, and improve advertising services. Data collection performed by AdMob is governed by Google's Privacy Policy.</p>
+        <p>The free version of VoxSherpa may display advertisements provided by Google AdMob. AdMob may use device identifiers and other technologies to provide, measure, and improve advertising services. Data collection performed by AdMob is governed by Google's Privacy Policy.</p>
 
         <h2>8. Purchases and Subscriptions</h2>
-        <p>Premium purchases and subscriptions are processed securely through Google Play Billing.</p>
-        <p>VoxSherpa does not collect, process, or store your payment card information. Payment information is handled directly by Google.</p>
+        <p>Premium purchases and subscriptions are processed securely through Google Play Billing. VoxSherpa does not collect, process, or store your payment card information. Payment information is handled directly by Google.</p>
 
         <h2>9. Data Security</h2>
         <p>We take reasonable measures to protect the app and its associated services. However, no method of electronic storage or internet transmission can be guaranteed to be completely secure.</p>
@@ -163,8 +149,7 @@
         <p>VoxSherpa is not directed toward children under the age required by applicable laws in their region. We do not knowingly collect personal information from children.</p>
 
         <h2>11. Changes to This Privacy Policy</h2>
-        <p>This Privacy Policy may be updated from time to time as VoxSherpa evolves and new features are introduced.</p>
-        <p>Any changes will be reflected by updating the "Last Updated" date on this page.</p>
+        <p>This Privacy Policy may be updated from time to time as VoxSherpa evolves and new features are introduced. Any changes will be reflected by updating the "Last Updated" date on this page.</p>
 
         <h2>12. Contact Us</h2>
         <p>If you have any questions, feedback, or concerns regarding this Privacy Policy, you may contact:</p>
