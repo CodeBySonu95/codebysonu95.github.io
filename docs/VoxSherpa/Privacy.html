@@ -97,7 +97,7 @@
 
     <div class="container">
         <h1>Privacy Policy for VoxSherpa</h1>
-        <span class="effective-date">Last Updated: August 8, 2026</span>
+        <span class="effective-date">Last Updated: October 26, 2026</span>
 
         <h2>1. Introduction</h2>
         <p>Welcome to VoxSherpa. This Privacy Policy explains how information is handled when you use the VoxSherpa Android application. We value your privacy and are committed to being transparent about our practices.</p>
@@ -105,13 +105,14 @@
         <h2>2. Information We Collect</h2>
         <p>VoxSherpa does not require account registration and does not directly collect personal information such as your name, email address, phone number, address, or the text and audio content you create within the app.</p>
         <p>All text-to-speech generation and voice processing are performed locally on your device whenever supported by the selected model.</p>
-        <p>However, certain third-party services integrated into the app may automatically collect limited technical information, diagnostic data, device identifiers, or usage statistics as described in their own privacy policies.</p>
+        <p>However, certain third-party services integrated into the app automatically collect limited technical information, crash logs, diagnostic data, device identifiers, and usage statistics to help us improve app stability and performance.</p>
 
         <h2>3. Internet and Network Access</h2>
         <p>VoxSherpa may use an internet connection for the following purposes:</p>
         <ul>
             <li>Retrieving the latest list of available AI models.</li>
             <li>Downloading AI model files and updates from Google Firebase.</li>
+            <li>Reporting crash logs, ANR (Application Not Responding) diagnostics, and anonymous usage analytics through Firebase.</li>
             <li>Displaying advertisements through Google AdMob.</li>
             <li>Verifying purchases and subscriptions through Google Play Billing.</li>
         </ul>
@@ -125,33 +126,41 @@
         <p>VoxSherpa does not intentionally collect, upload, or store your voice recordings, cloned voice profiles, generated speech, or imported text on developer-controlled servers.</p>
 
         <h2>6. Third-Party Services</h2>
-        <p>VoxSherpa may use the following third-party services:</p>
+        <p>VoxSherpa uses the following third-party services provided by Google:</p>
         <ul>
             <li><strong>Google Play Services</strong></li>
-            <li><strong>Google Firebase</strong></li>
+            <li><strong>Google Firebase (Cloud Storage / Core)</strong></li>
+            <li><strong>Google Analytics for Firebase</strong></li>
+            <li><strong>Firebase Crashlytics</strong></li>
             <li><strong>Google AdMob</strong></li>
             <li><strong>Google Play Billing</strong></li>
         </ul>
-        <!-- Removed Firebase Analytics mention; kept generic diagnostics/security mentions as per other services -->
-        <p>These services may collect limited information necessary for diagnostics, advertising, security, fraud prevention, purchase verification, and service functionality.</p>
+        <p>These services may collect limited information necessary for crash reporting, usage analytics, diagnostics, advertising, security, fraud prevention, purchase verification, and service functionality.</p>
         <p>For more information, please review Google's Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" style="color: var(--md-primary-color);">https://policies.google.com/privacy</a></p>
 
-        <h2>7. Advertising</h2>
+        <h2>7. Analytics and Crash Reporting</h2>
+        <p>To maintain app stability and understand feature usage, VoxSherpa uses <strong>Firebase Crashlytics</strong> and <strong>Google Analytics for Firebase</strong>:</p>
+        <ul>
+            <li><strong>Crashlytics:</strong> Automatically collects crash stack traces, ANR logs, device model, OS version, and app state at the time of a crash to help us identify and fix bugs.</li>
+            <li><strong>Analytics:</strong> Collects anonymous interaction data (such as screen views, feature usage frequency, and session duration) and approximate location (derived from IP address) to help us improve the user experience.</li>
+        </ul>
+
+        <h2>8. Advertising</h2>
         <p>The free version of VoxSherpa may display advertisements provided by Google AdMob. AdMob may use device identifiers and other technologies to provide, measure, and improve advertising services. Data collection performed by AdMob is governed by Google's Privacy Policy.</p>
 
-        <h2>8. Purchases and Subscriptions</h2>
+        <h2>9. Purchases and Subscriptions</h2>
         <p>Premium purchases and subscriptions are processed securely through Google Play Billing. VoxSherpa does not collect, process, or store your payment card information. Payment information is handled directly by Google.</p>
 
-        <h2>9. Data Security</h2>
-        <p>We take reasonable measures to protect the app and its associated services. However, no method of electronic storage or internet transmission can be guaranteed to be completely secure.</p>
+        <h2>10. Data Security</h2>
+        <p>We take reasonable measures to protect the app and its associated services. All diagnostic and analytics data transmitted by third-party SDKs is encrypted in transit using HTTPS. However, no method of electronic storage or internet transmission can be guaranteed to be completely secure.</p>
 
-        <h2>10. Children's Privacy</h2>
+        <h2>11. Children's Privacy</h2>
         <p>VoxSherpa is not directed toward children under the age required by applicable laws in their region. We do not knowingly collect personal information from children.</p>
 
-        <h2>11. Changes to This Privacy Policy</h2>
+        <h2>12. Changes to This Privacy Policy</h2>
         <p>This Privacy Policy may be updated from time to time as VoxSherpa evolves and new features are introduced. Any changes will be reflected by updating the "Last Updated" date on this page.</p>
 
-        <h2>12. Contact Us</h2>
+        <h2>13. Contact Us</h2>
         <p>If you have any questions, feedback, or concerns regarding this Privacy Policy, you may contact:</p>
         <p><a href="mailto:codebysonu95@gmail.com" class="contact-email">codebysonu95@gmail.com</a></p>
     </div>
